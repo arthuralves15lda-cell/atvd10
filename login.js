@@ -20,8 +20,8 @@ formLogin.addEventListener("submit", function (event) {
     mensagemErro.textContent = "";
     mensagemCerta.textContent = "";
 
-    let userCerto = 12433088;
-    let senhaCerta = -2069857144;
+    let userCerto = 60179690;
+    let senhaCerta = -2114109249;
 
     if (embaralhar(usuario) == userCerto && embaralhar(senha) == senhaCerta) {
         mensagemCerta.textContent = "Senha e usuário corretos!";
